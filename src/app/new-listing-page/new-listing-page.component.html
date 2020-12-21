@@ -1,0 +1,21 @@
+<div>
+    <div>
+        <label>
+            Name:
+            <input id="name" name="name" type="text" [(ngModel)]="name" />
+        </label>
+    </div>
+    <div>
+        <label>
+            Price:
+            <input id="price" name="price" type="text" [(ngModel)]="price" />
+        </label>
+    </div>
+    <div>
+        <label>
+            Description:
+            <input id="description" name="description" type="text" [(ngModel)]="description" />
+        </label>
+    </div>
+    <button (click)="onCreateListing()">Create Listing</button>
+</div>
